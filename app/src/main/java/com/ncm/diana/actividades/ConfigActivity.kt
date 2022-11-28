@@ -80,7 +80,6 @@ class ConfigActivity : AppCompatActivity() {
                 finish()
                 return@setOnClickListener
             }
-
         }
     }
 
