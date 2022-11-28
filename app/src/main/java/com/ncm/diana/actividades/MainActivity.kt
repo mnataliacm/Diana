@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private var dificultad: Int = 0
     private var umbral: Int = 5
-    private var iniciales: String = "ncm"
+    private var iniciales: String = ""
+    private var nivel: String = ""
 
     /**
      * @param savedInstanceState: Bundle?
@@ -32,11 +33,13 @@ class MainActivity : AppCompatActivity() {
         umbral = sp.getInt("umbral",5)
         dificultad = sp.getInt("dificultad", 0)
         iniciales = sp.getString("iniciales", "NCM").toString()
+        nivel = sp.getString("nivel", "Min").toString()
 
         with(binding) {
             etqUmbral.text = resources.getString(R.string.etq_umbral_valor, umbral)
-            etqDificil.text = resources.getString(R.string.etq_dificil_nivel, dificultad)
+            etqDificil.text = resources.getString(R.string.etq_dificil_nivel, nivel)
             etqJugador.text = resources.getString(R.string.etq_jugador_valor, iniciales)
+
 
             btnJugar.setOnClickListener {
                 finish()

@@ -7,7 +7,7 @@
     <string name="etq_mensaje">Shoot close to %d</string>
     <string name="btn_disparar">Shoot!</string>
     <string name="etq_puntos">Score: %d</string>
-    <string name="etq_dificil_nivel">Difficulty: %d</string>
+    <string name="etq_dificil_nivel">Difficulty: %s</string>
     <string name="etq_umbral_valor" >Point threshold: %d</string>
     <string name="etq_desarrollador">Game developed by Natalia Castillo</string>
     <string name="etq_exito">You win! Do you wanna play again?</string>
