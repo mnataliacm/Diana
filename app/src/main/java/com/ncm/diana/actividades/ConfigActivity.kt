@@ -75,11 +75,10 @@ class ConfigActivity : AppCompatActivity() {
                     startActivity(i)
                     return@setOnClickListener
                 }
-
-                btnCancelar.setOnClickListener {
-                    finish()
-                    return@setOnClickListener
-                }
+            }
+            btnCancelar.setOnClickListener {
+                finish()
+                return@setOnClickListener
             }
 
         }
