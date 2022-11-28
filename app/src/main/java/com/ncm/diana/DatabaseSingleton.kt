@@ -3,7 +3,7 @@ package com.ncm.diana
 import android.content.Context
 import androidx.room.Room
 
-object databaseSingleton {
+object DatabaseSingleton {
 
     private var database: Conector? = null
 

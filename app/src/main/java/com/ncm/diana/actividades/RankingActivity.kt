@@ -3,7 +3,6 @@ package com.ncm.diana.actividades
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.room.Room
 import com.ncm.diana.Conector
 import com.ncm.diana.modelos.adaptadores.EntradaAdaptador
 import com.ncm.diana.databinding.ActivityRankingBinding
