@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Diana</string>
+    <string name="logo_diana">icon target</string>
+    <string name="btn_empezar">Start game</string>
+    <string name="etq_mensaje_info">Game developed by Natalia Castillo. Subject of Multimedia Programming and Mobile Devices</string>
+    <string name="etq_mensaje">Shoot close to %d</string>
+    <string name="btn_disparar">Shoot!</string>
+    <string name="etq_puntos">Score: %d</string>
+    <string name="etq_dificil_nivel">Difficulty: %d</string>
+    <string name="etq_umbral_valor" >Point threshold: %d</string>
+    <string name="etq_desarrollador">Game developed by Natalia Castillo</string>
+    <string name="etq_exito">You win! Do you wanna play again?</string>
+    <string name="etq_dardos">You have failed. You have no shots left, you have achieved %d points</string>
+    <string name="etq_cancelar">Cancel</string>
+    <string name="etq_guardar">Save</string>
+    <string name="etq_dificultad">Difficulty</string>
+    <string name="etq_fallo_mayor">¡You have failed! Value is higher.</string>
+    <string name="etq_Fallo_menor">¡You have failed! Value is lower.</string>
+    <string name="etq_umbral">Threshold</string>
+    <string name="etq_volver">Back</string>
+    <string name="icono_de_galardon">ribbon icon</string>
+    <string name="etq_jugador">Initials</string>
+    <string name="etq_jugador_valor">Player: %s</string>
+    <string name="etq_nivel">Level</string>
+    <!-- plurales -->
+    <plurals name="etq_tiradas">
+        <item quantity="one">%d dart left!</item>
+        <item quantity="other">You have got %d darts</item>
+    </plurals>
+    <!-- arrays -->
+    <string-array name="nivel_dificuldad">
+        <item>Level Easy</item>
+        <item>Level Medium</item>
+        <item>Level Dificult</item>
+        <item>Level More Dificult</item>
+    </string-array>
+</resources>

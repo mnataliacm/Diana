@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Diana</string>
+    <string name="logo_diana">logo de una diana</string>
+    <string name="etq_desarrollador">Juego desarrollado por Natalia Castillo</string>
+    <string name="btn_empezar">Empezar juego</string>
+    <string name="etq_mensaje_info">Juego desarrollado por Natalia Castillo. Asignatura de Programación Multimedia y de Dispositivos Móviles</string>
+    <string name="etq_mensaje">Diana en el valor: %d</string>
+    <string name="btn_disparar">¡disparar!</string>
+    <string name="etq_puntos">Puntuación: %d</string>
+    <string name="etq_exito">¡Has acertado! ¿Quieres seguir jugando?</string>
+    <string name="etq_fallo_mayor">¡Has fallado! El valor es mayor.</string>
+    <string name="etq_Fallo_menor">¡Has fallado! El valor es menor.</string>
+    <string name="etq_umbral">Umbral</string>
+    <string name="etq_dardos">¡Has perdido! No te quedan dardos, has conseguido %d puntos</string>
+    <string name="etq_dificultad">Dificultad</string>
+    <string name="etq_cancelar">Cancelar</string>
+    <string name="etq_guardar">Guardar</string>
+    <string name="etq_umbral_valor">Umbral: %d</string>
+    <string name="etq_dificil_nivel">Dificultad: %d</string>
+    <string name="etq_volver">Volver</string>
+    <string name="etqPuntos" translatable="false"> _____ </string>
+    <string name="icono_de_galardon">icono de galardon</string>
+    <string name="puntos" translatable="false"> 10000</string>
+    <string name="etq_ranking" translatable="false">Ranking</string>
+    <string name="etq_jugador">Iniciales</string>
+    <string name="etq_jugador_valor">Jugador: %s</string>
+    <string name="etq_nivel">Min</string>
+
+    <!-- plurales -->
+    <plurals name="etq_tiradas">
+        <item quantity="one">Te queda %d dardo</item>
+        <item quantity="other">Te quedan %d dardos</item>
+    </plurals>
+
+    <string-array name="nivel_dificuldad">
+        <item>Nivel Facil</item>
+        <item>Nivel Medio</item>
+        <item>Nivel Dificil</item>
+        <item>Nivel Muy Dificil</item>
+    </string-array>
+
+</resources>

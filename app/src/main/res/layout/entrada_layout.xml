@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="5dp"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="2"
+        android:contentDescription="@string/icono_de_galardon"
+        app:srcCompat="@drawable/ic_ribbon"
+        app:tint="@color/rojo_oscuro" />
+
+    <TextView
+        android:id="@+id/etqIniciales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:fontFamily="@font/robotomono_bold"
+        android:textColor="@color/white"
+        android:text="@string/etq_jugador"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/etqPuntosSuspensivos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/robotomono"
+        android:textColor="@color/white"
+        android:text="@string/etqPuntos"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/etqPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotomono"
+        android:textColor="@color/white"
+        android:layout_weight="2"
+        android:text="@string/puntos"
+        android:textSize="20sp"
+        android:textAlignment="textEnd"/>
+
+    <TextView
+        android:id="@+id/etqPuntosSuspensivos2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/robotomono"
+        android:textColor="@color/white"
+        android:text="@string/etqPuntos"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/etqNivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:fontFamily="@font/robotomono_bold"
+        android:textColor="@color/white"
+        android:text="@string/etq_nivel"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/btnBorrar"-->
+<!--        android:layout_width="55dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        app:icon="@drawable/ic_delete" />-->
+</LinearLayout>

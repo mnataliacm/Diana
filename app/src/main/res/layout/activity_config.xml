@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tapete"
+    tools:context=".actividades.ConfigActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="295dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/diana_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/logo_diana" />
+
+    <!-- Layout que contiene un cuadro de texto.
+        Lo usamos para aplicar diferentes estilos al componente. -->
+
+    <TextView
+        android:id="@+id/etqJugador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:fontFamily="@font/robotomono_thinitalic"
+        android:gravity="center_horizontal"
+        android:text="@string/etq_jugador"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layTextField2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/etqJugador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/white"
+        android:textAlignment="center"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <!-- Este es el verdadero cuadro de texto -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtJugador"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:fontFamily="@font/robotomono"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- Layout que contiene un cuadro de texto.
+         Lo usamos para aplicar diferentes estilos al componente. -->
+
+    <TextView
+        android:id="@+id/etqUmbral"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/robotomono_thinitalic"
+        android:gravity="center_horizontal"
+        android:text="@string/etq_umbral"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layTextField2" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layTextField"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/etqUmbral"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/white"
+        android:textAlignment="center"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <!-- Este es el verdadero cuadro de texto -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtUmbral"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:fontFamily="@font/robotomono"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/etqDificil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:fontFamily="@font/robotomono_thinitalic"
+        android:gravity="center_horizontal"
+        android:text="@string/etq_dificultad"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layTextField" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etqDificil">
+
+        <Spinner
+            android:id="@+id/etq_dificultad_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:entries="@array/nivel_dificuldad"
+            android:textAlignment="center">
+        </Spinner>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/etq_cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_guardar" />
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/etq_guardar"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
