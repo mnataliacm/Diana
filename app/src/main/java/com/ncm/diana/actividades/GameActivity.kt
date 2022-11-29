@@ -1,5 +1,7 @@
 package com.ncm.diana.actividades
-
+/**
+ * Natalia Castillo Muñoz
+ */
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -1,5 +1,7 @@
 package com.ncm.diana.modelos
-
+/**
+ * Natalia Castillo Muñoz
+ */
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey

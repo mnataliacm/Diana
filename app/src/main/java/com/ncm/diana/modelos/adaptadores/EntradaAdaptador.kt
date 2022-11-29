@@ -1,5 +1,7 @@
 package com.ncm.diana.modelos.adaptadores
-
+/**
+ * Natalia Castillo Muñoz
+ */
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView

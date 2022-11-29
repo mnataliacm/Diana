@@ -1,5 +1,7 @@
 package com.ncm.diana
-
+/**
+ * Natalia Castillo Muñoz
+ */
 import androidx.room.*
 import com.ncm.diana.modelos.Entrada
 

@@ -1,5 +1,7 @@
 package com.ncm.diana.actividades
-
+/**
+ * Natalia Castillo Muñoz
+ */
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -11,7 +13,7 @@ import com.ncm.diana.databinding.ActivityConfigBinding
 class ConfigActivity : AppCompatActivity() {
     private lateinit var binding: ActivityConfigBinding
     private lateinit var sp: SharedPreferences
-    private lateinit var nivel: String
+    private var nivel: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
